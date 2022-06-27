@@ -1,0 +1,29 @@
+﻿@using Bikin_Back_End.Models
+@model ServicesM
+@{
+    ViewData["Title"] = "Create";
+}
+
+<form method="post" class="form form-control mb-3">
+    <div>
+        <label class="mb-2">Servis Icon:</label>
+        <input asp-for="Icon" class="form form-control border border-info mb-2" type="text" />
+        <span class="text-danger" asp-validation-for="Icon"></span>
+    </div>
+    <div>
+        <label class="mb-2">Servis Title:</label>
+        <input asp-for="Title" class="form form-control border border-info mb-2" type="text" />
+        <span class="text-danger" asp-validation-for="Title"></span>
+    </div>
+    <div>
+        <label class="mb-2">Servis Description :</label>
+        <input asp-for="Description" class="form form-control border border-info mb-2" type="text" />
+        <span class="text-danger" asp-validation-for="Description"></span>
+    </div>
+    <div>
+        <button type="submit" class="btn btn-dark"> Create Servis</button>
+    </div>
+</form>
+
+
+

@@ -1,0 +1,203 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+}
+
+header .logo h2 {
+  margin-top: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+header .navbar {
+  margin-top: 20px;
+}
+
+header .navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+}
+
+header .navbar ul li {
+  list-style: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+header .navbar ul li:hover {
+  color: #6269f8;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main #home {
+  margin-top: 4%;
+}
+
+main #home .title h1 {
+  font-size: 50px;
+}
+
+main #home .title p {
+  font-size: 25px;
+}
+
+main #home .title button {
+  width: 12%;
+}
+
+main #home .img img {
+  width: 60%;
+}
+
+main #services {
+  background-color: #2d405f;
+}
+
+main #services .title {
+  margin-top: 3%;
+  color: white;
+}
+
+main #services .title h3 {
+  font-weight: bold;
+}
+
+main #services .cards {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 35vh;
+  width: 20%;
+}
+
+main #services .cards:hover {
+  width: 22%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main #services .cards .cardservis {
+  width: 100%;
+}
+
+main #services .cards .cardservis i {
+  font-size: 30px;
+}
+
+main #services .cards .cardservis h5 {
+  color: #2d405f;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+main #services .cards .cardservis h5:hover {
+  color: #4c6386;
+}
+
+main #services .cards .cardservis p {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+main #contact {
+  background-color: #f6f8fb;
+}
+
+main #contact .email {
+  width: 50%;
+  background-color: white;
+  text-align: center;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+main #contact .email p {
+  color: #4f689b;
+}
+
+main #contact .email .icon i {
+  color: #3b4ef8;
+  font-size: 30px;
+}
+
+main #contact .email h3 {
+  color: #5d5d5d;
+  font-size: 25px;
+}
+
+main #contact .address {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+main #contact .address p {
+  color: #4f689b;
+}
+
+main #contact .address .icon i {
+  color: #3b4ef8;
+  font-size: 30px;
+}
+
+main #contact .address h3 {
+  color: #5d5d5d;
+  font-size: 25px;
+}
+
+main #contact .serv {
+  position: relative;
+  text-align: center;
+}
+
+main #contact .serv .line {
+  position: absolute;
+  left: 48%;
+  width: 60px;
+  height: 3px;
+  background-color: #90a3c2;
+}
+
+main #contact .serv .xet {
+  text-align: center;
+}
+
+main #contact .serv .title h2 {
+  color: #2d405f;
+  font-size: 33px;
+}
+
+main #contact .serv .subtitle {
+  color: #575757;
+}
+
+main .inputs {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+  background-color: white;
+}
+/*# sourceMappingURL=style.css.map */

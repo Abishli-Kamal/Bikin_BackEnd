@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="stylesheet" href="~/assets/css/style.css">
+    <link rel="stylesheet" href="~/assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Bikin</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-2 logo">
+                    <h2>@servis.GetDatas().Result.FirstOrDefault(s=>s.Key=="logo").Value</h2>
+                </div>
+                <div class="col-lg-9 navbar ">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Portfolio</li>
+                        <li>Team</li>
+                        <li>Pricing</li>
+                        <li>Drop Down</li>
+                        <li>Contact</li>
+                        <li><a asp-controller="Account" asp-action="Register"> <i style="font-size:25px ;color:red;" class="fa-solid fa-right-to-bracket"></i></a></li>
+                        <li><a asp-controller="Account" asp-action="Login"> <i style="font-size:25px ;color:red;" class="fa-regular fa-address-card"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    @RenderBody()
+     <script src="~/assets/js/script.js"></script>
+</body>
+
+</html>
+
